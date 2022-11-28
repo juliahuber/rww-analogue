@@ -1,0 +1,107 @@
+package com.mimuc.rww
+
+class ChallengeList {
+
+        val list: ArrayList<Challenge> = mutableListOf(
+
+            Challenge("Close your eyes and think of your last vacation for a minute. What do you see? How do you feel?", Category.RELAXING, false),
+            Challenge("Sit back, take a sip of water, close your eyes and imagine something, you are grateful for. What is it?", Category.RELAXING, false),
+            Challenge("Get up, stretch yourself, open a window and take a deep breath. What does the air smell like?", Category.RELAXING, false),
+            Challenge("Get yourself something to drink, e.g. water or tea, and drink a few sips with your eyes closed. What does the liquid feel like?", Category.RELAXING, false),
+            Challenge("Grab a book and read for 5 minutes. How many pages did you read?", Category.RELAXING, false),
+            Challenge("Open the window and identify three different sounds outside. What sounds did you hear?", Category.RELAXING, false),
+            Challenge("Open the window and take a look outside. Name 5 things you can see, 4 things you can hear, 3 things you can physically feel, 2 things you can smell, and 1 thing that you can be grateful for today.", Category.RELAXING, false),
+            Challenge("Get up, close your eyes and imagine being in your favourite spot in nature. What do you hear, see, sense? Breathe deeply.", Category.RELAXING, false),
+            Challenge("Look outside your window for an animal. What animal do you see?", Category.RELAXING, false),
+            Challenge("Close your eyes and listen to your body. Do you have tensions, if so, where? Think of some stretching exercises for those regions.", Category.RELAXING, false),
+            Challenge("See if there is a newspaper or magazine around and browse through it. What is the headline that caught you most?", Category.RELAXING, false),
+            Challenge("Go and cook yourself a cup of tea. What flavour did you chose?", Category.RELAXING, false),
+            Challenge("Close your eyes and think about the following question: What would you long for right now?", Category.RELAXING, false),
+            Challenge("For one minute, inhale through the left nostril and exhale through the right nostril. Did an image pop into your head?", Category.RELAXING, false),
+            Challenge("Mentally go to a place where you would like to spend your vacation. Think about a text for a postcard. What is on the front of the postcard?", Category.RELAXING, false),
+
+            Challenge("Go through the alphabet in reverse. How many mistakes did you make?", Category.MENTAL, false),
+            Challenge("Look around your room for a book. Which was the last book you read? When was it?", Category.MENTAL, false),
+            Challenge("Look for your favorite item in your apartment. Why is it your favorite item?", Category.MENTAL, false),
+            Challenge("Search for the most colorful item in your room. How many colors are there?", Category.MENTAL, false),
+            Challenge("Look around in your room and find 3 things that have the colour green. What things did you see?", Category.MENTAL, false),
+            Challenge("Name three things around you, that have the color of your shirt.", Category.MENTAL, false),
+            Challenge("Find a piece of paper and a pencil and draw a small picture of an animal. What animal did you draw?", Category.MENTAL, false),
+            Challenge("Draw a picture of a fruit-man. Which fruit did you choose and what was his special feature?", Category.MENTAL, false),
+            Challenge("Think about your last big success. What did you enjoy most?", Category.MENTAL, false),
+            Challenge("Find three things in the space around you that bring you joy. Which things did you find and why?", Category.MENTAL, false),
+            Challenge("Look around in your room and try to find 3 objects that form a rectangular triangle. What objects did you find?", Category.MENTAL, false),
+            Challenge("Think about what your favorite fruit is. Which dish with this fruit do you like to eat the most?", Category.MENTAL, false),
+            Challenge("Find a CD or an old playlist, and turn on the first song. What memories did this song bring back?", Category.MENTAL, false),
+            Challenge("Remember the last situation that you laughed really loud. What was that situation?", Category.MENTAL, false),
+            Challenge("Imagine you can invent a new fantasy animal. What would it look like and what sounds does it make?", Category.MENTAL, false),
+            Challenge("Think of a computer game that you enjoyed playing. Try to remember as many characters as possible. How many names do you remember and what game did you have in mind?", Category.MENTAL, false),
+            Challenge("Close your eyes and think of your last meal. What did you like most about it?", Category.MENTAL, false),
+            Challenge("Grab any book that you can find and read page 10, what is the last word of the page?", Category.MENTAL, false),
+            Challenge("Think back. When was the last time you did something for the first time?", Category.MENTAL, false),
+            Challenge("Think back. What three feelings dominated this month?", Category.MENTAL, false),
+            Challenge("Think back. What made you feel good this month?", Category.MENTAL, false),
+            Challenge("Try to solve this math problem without a calculator: 12*34. What result do you get?", Category.MENTAL, false),
+
+            Challenge("Do 10 stretching exercises. Which parts of your body did you use first and which last?", Category.PHYSICAL, false),
+            Challenge("Stand up, leave the room, close the door behind you. How many doors do you see in front of you?", Category.PHYSICAL, false),
+            Challenge("Get up and stretch your arms above your head. Try to be as tall as possible. Which item of furniture in your room matches your height while stretching?", Category.PHYSICAL, false),
+            Challenge("Stand up and go to the kitchen. Count the mugs in your cupboard. How many mugs did you count?", Category.PHYSICAL, false),
+            Challenge("Go outside and take a photo of something red or with dots. What item did you take a picture of?", Category.PHYSICAL, false),
+            Challenge("Stand up and keep walking for one minute. Do not look at your smartphone. How many steps did you make?", Category.PHYSICAL, false),
+            Challenge("Try to balance on your right leg for as long as possible. How long did you manage?", Category.PHYSICAL, false),
+            Challenge("Get as far as your room allows away from your computer. Estimate the distance in metres.", Category.PHYSICAL, false),
+            Challenge("Go into every room in your apartment and name the objects you recognise first.", Category.PHYSICAL, false),
+            Challenge("Stand up and look how far you can rotate to the left and then to the right, while your feet are stable. In which direction can you rotate more?", Category.PHYSICAL, false),
+            Challenge("Dance to your favourite playlist for 3 minutes straight. Which song did you dance to?", Category.PHYSICAL, false),
+            Challenge("Step outside and look at the sky. What did the form of the cloud remind you of?", Category.PHYSICAL, false),
+            Challenge("Go to the other side of the room. How many steps did it take?", Category.PHYSICAL, false),
+            Challenge("Walk around and touch something blue. Do you feel blue, too?", Category.PHYSICAL, false),
+            Challenge("Try to hold a plank for as long as possible. How many seconds did you get?", Category.PHYSICAL, false),
+            Challenge("Go to your fridge, open it and look at the top shelf. What do you see first?", Category.PHYSICAL, false),
+            Challenge("Go to your kitchen and count your cutlery. How many spoons did you find?", Category.PHYSICAL, false),
+            Challenge("Stretch your back through and sit straight for one minute. How often did you breathe in?", Category.PHYSICAL, false),
+            Challenge("Bottle flip challenge! Fill a bottle ⅓ with water, close the bottle and try to throw it on the table so that it stops. How many attempts did it take you?", Category.PHYSICAL, false),
+            Challenge("Throw an eraser (or similar) up in the air and catch it. How many times can you do it without it falling down?", Category.PHYSICAL, false),
+
+            Challenge("Go and find your pet. Engage with him/her. If you don't have a pet, find a stuffed animal and cuddle it. Which animal did you engage with?", Category.SOCIAL, false),
+            Challenge("Walk around until you see a person. Smile at this person. How long did it take you to find a person? ", Category.SOCIAL, false),
+            Challenge("Call a friend of yours for a little chat. What is the third sentence they have said?", Category.SOCIAL, false),
+            Challenge("In the meeting, did you wonder, how one specific person was doing? If appropriate, write them a short message asking how they are.", Category.SOCIAL, false),
+            Challenge("Walk around and ask the second person you see what they are working on!", Category.SOCIAL, false),
+            Challenge("Call a family member for a little chat. How did they greet you?", Category.SOCIAL, false),
+            Challenge("Call a friend of yours for a little chat. Try to include the word ‘giraffe’ in a sentence. What was the reaction?", Category.SOCIAL, false),
+            Challenge("Call a friend of yours for a little chat. Try to include the word ‘dragon’ in a sentence. How long did it take you?", Category.SOCIAL, false),
+            Challenge("Think of a dear person you would like to see again and suggest a reunion to this person. What will you be doing?", Category.SOCIAL, false),
+            Challenge("Call a friend or a family member and ask how they are. How was their reaction when they heard your voice?", Category.SOCIAL, false),
+            Challenge("Think of a funny experience and talk about it with a person you associate with it. Does the person add up something to that memory?", Category.SOCIAL, false),
+            Challenge("Did somebody do something nice for you recently? Tell that person that you are thankful for that. How did they react?", Category.SOCIAL, false),
+
+            Challenge("Go outside and check if there is any item in your mailbox. How many items are there?", Category.ORGANIZING, false),
+            Challenge("Take your notepad and write down what you need from your next grocery shopping trip. What was the second thing that came into your mind?", Category.ORGANIZING, false),
+            Challenge("Have a look into the fridge. Is there something missing?", Category.ORGANIZING, false),
+            Challenge("Think of your next week. How often will you cook at home?", Category.ORGANIZING, false),
+            Challenge("Go to the kitchen. How many things can you tidy up?", Category.ORGANIZING, false),
+            Challenge("Have a look at your laundry. What kind of laundry do you have to do next?", Category.ORGANIZING, false),
+            Challenge("Think of your next trip. What things do you absolutely have to pack?", Category.ORGANIZING, false),
+            Challenge("Think of recent purchases. Are there any bills that you have to pay?", Category.ORGANIZING, false),
+            Challenge("Have a look at your toilet paper roles. How many are left? Should you go buy some soon?", Category.ORGANIZING, false),
+            Challenge("See if you need to take out the trash. Which trash can was full?", Category.ORGANIZING, false),
+            Challenge("What do you want to cook next? Take a slip of paper and note down what you need for that.", Category.ORGANIZING, false),
+            Challenge("Think of the things you want to get done by the end of today or tomorrow and make a list with those things. How many did you note down?", Category.ORGANIZING, false),
+            Challenge("Look at your bedding. What color do you want to cover it with next?", Category.ORGANIZING, false),
+            Challenge("Think about your next month. Which thing do you definitely want to tackle?", Category.ORGANIZING, false),
+            Challenge("Think about your next month. How can you support yourself more in the next month?", Category.ORGANIZING, false),
+            Challenge("Think about which of the people you care about has a birthday next. What cake would you bake for that person and what do you need for it?", Category.ORGANIZING, false),
+            Challenge("Think about which of the people you care about has a birthday next. Do you already have an idea for the gift and where are you going to buy it?", Category.ORGANIZING, false),
+            Challenge("Close your eyes and think of what you would like to eat next. What has to be the first step in order to eat that?", Category.ORGANIZING, false),
+
+
+        ) as ArrayList<Challenge>
+
+
+    public fun getMyList(): ArrayList<Challenge> {
+        return list
+    }
+
+}

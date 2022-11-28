@@ -21,7 +21,7 @@ class FirebaseConfig {
         var debugDestroyRef: DatabaseReference? = null
 
         fun initFirebasePaths(userId: String?) {
-            val database = FirebaseDatabase.getInstance("https://ma-realwind-default-rtdb.europe-west1.firebasedatabase.app")
+            val database = FirebaseDatabase.getInstance("https://rww-analogue-default-rtdb.europe-west1.firebasedatabase.app/")
             println("database: "+database.toString())
             println("database.getreference: "+database.getReference().toString())
             println("database app: "+database.app.toString())
